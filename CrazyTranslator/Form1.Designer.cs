@@ -33,6 +33,8 @@ namespace CrazyTranslator
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.chkBoth = new System.Windows.Forms.CheckBox();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -46,8 +48,6 @@ namespace CrazyTranslator
             this.translatedText = new System.Windows.Forms.RichTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.sourceText = new System.Windows.Forms.RichTextBox();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.chkBoth = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -110,6 +110,25 @@ namespace CrazyTranslator
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(722, 475);
             this.panel1.TabIndex = 4;
+            // 
+            // chkBoth
+            // 
+            this.chkBoth.AutoSize = true;
+            this.chkBoth.ForeColor = System.Drawing.Color.White;
+            this.chkBoth.Location = new System.Drawing.Point(85, 300);
+            this.chkBoth.Name = "chkBoth";
+            this.chkBoth.Size = new System.Drawing.Size(123, 17);
+            this.chkBoth.TabIndex = 14;
+            this.chkBoth.Text = "Both same language";
+            this.chkBoth.UseVisualStyleBackColor = true;
+            this.chkBoth.CheckedChanged += new System.EventHandler(this.chkBoth_CheckedChanged);
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(12, 411);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(698, 52);
+            this.progressBar1.TabIndex = 13;
             // 
             // linkLabel1
             // 
@@ -272,25 +291,6 @@ namespace CrazyTranslator
             this.sourceText.TabIndex = 0;
             this.sourceText.Text = "";
             // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(12, 411);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(698, 52);
-            this.progressBar1.TabIndex = 13;
-            // 
-            // chkBoth
-            // 
-            this.chkBoth.AutoSize = true;
-            this.chkBoth.ForeColor = System.Drawing.Color.White;
-            this.chkBoth.Location = new System.Drawing.Point(85, 300);
-            this.chkBoth.Name = "chkBoth";
-            this.chkBoth.Size = new System.Drawing.Size(123, 17);
-            this.chkBoth.TabIndex = 14;
-            this.chkBoth.Text = "Both same language";
-            this.chkBoth.UseVisualStyleBackColor = true;
-            this.chkBoth.CheckedChanged += new System.EventHandler(this.chkBoth_CheckedChanged);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -306,7 +306,7 @@ namespace CrazyTranslator
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Hyper Translator";
+            this.Text = "Crazy Translator ---#";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

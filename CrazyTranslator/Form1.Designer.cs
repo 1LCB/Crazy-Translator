@@ -108,7 +108,7 @@ namespace CrazyTranslator
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 88);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(722, 475);
+            this.panel1.Size = new System.Drawing.Size(776, 475);
             this.panel1.TabIndex = 4;
             // 
             // chkBoth
@@ -125,9 +125,9 @@ namespace CrazyTranslator
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(12, 411);
+            this.progressBar1.Location = new System.Drawing.Point(12, 414);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(698, 52);
+            this.progressBar1.Size = new System.Drawing.Size(698, 43);
             this.progressBar1.TabIndex = 13;
             // 
             // linkLabel1
@@ -184,7 +184,7 @@ namespace CrazyTranslator
             this.times.TabIndex = 9;
             this.times.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.times.Value = new decimal(new int[] {
-            4,
+            10,
             0,
             0,
             0});
@@ -259,7 +259,7 @@ namespace CrazyTranslator
             // 
             this.translatedText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(8)))), ((int)(((byte)(8)))));
             this.translatedText.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.translatedText.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.translatedText.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.translatedText.ForeColor = System.Drawing.Color.White;
             this.translatedText.Location = new System.Drawing.Point(410, 42);
             this.translatedText.Name = "translatedText";
@@ -283,7 +283,7 @@ namespace CrazyTranslator
             // 
             this.sourceText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(8)))), ((int)(((byte)(8)))));
             this.sourceText.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.sourceText.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sourceText.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sourceText.ForeColor = System.Drawing.Color.White;
             this.sourceText.Location = new System.Drawing.Point(12, 42);
             this.sourceText.Name = "sourceText";
@@ -306,7 +306,7 @@ namespace CrazyTranslator
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Crazy Translator ---#";
+            this.Text = "Crazy Translator: ";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

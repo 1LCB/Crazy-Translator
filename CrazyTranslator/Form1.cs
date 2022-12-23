@@ -20,7 +20,6 @@ namespace CrazyTranslator
             InitializeComponent();
         }
         List<string> Languages_list = new List<string>();
-        Random r = new Random();
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             Process.Start("https://github.com/1LCB");
@@ -35,6 +34,8 @@ namespace CrazyTranslator
 
             sourceLanguage.SelectedItem = "English";
             targetLanguage.SelectedItem = "English";
+
+            this.Text += $" {Environment.UserDomainName}";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -93,8 +94,10 @@ namespace CrazyTranslator
 
                 stored_code = random_code;
 
+                Debug.WriteLine($"Text: {formated_text}\nLanguage: {random_code}\n");
+
                 progressBar1.Value += 1;
-                Thread.Sleep(rand.Next(230, 300));
+                Thread.Sleep(rand.Next(30, 50)); //delay
             }
             var text = GoogleTranslator.Translate(formated_text, stored_code, targetCode);
             string final_text = Refinar(text);

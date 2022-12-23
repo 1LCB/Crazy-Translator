@@ -41,4 +41,4 @@ C:\Users\Flavio\source\repos\CrazyTranslator\CrazyTranslator\obj\Debug\CrazyTran
 C:\Users\Flavio\source\repos\CrazyTranslator\CrazyTranslator\obj\Debug\CrazyTranslator.csproj.CoreCompileInputs.cache
 C:\Users\Flavio\source\repos\CrazyTranslator\CrazyTranslator\obj\Debug\CrazyTranslator.exe
 C:\Users\Flavio\source\repos\CrazyTranslator\CrazyTranslator\obj\Debug\CrazyTranslator.pdb
-C:\Users\Flavio\source\repos\CrazyTranslator\CrazyTranslator\obj\Debug\CrazyTranslator.csproj.CopyComplete
+C:\Users\Flavio\source\repos\CrazyTranslator\CrazyTranslator\obj\Debug\CrazyTranslator.csproj.AssemblyReference.cache
